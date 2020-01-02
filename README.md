@@ -1,7 +1,8 @@
 # PhysNet
 Main code of **BMVC2019 paper 'Photoplethysmograph Signal Measurement from Facial Videos Using Spatio-Temporal Networks'** 
 
-How to use it?
+How to train it?
+
     #1. Inference the model
     model = PhysNet_padding_Encoder_Decoder_MAX(frames=128)
     rPPG, x_visual, x_visual3232, x_visual1616 = model(inputs)
