@@ -17,10 +17,16 @@ loss_ecg = Neg_Pearson(rPPG, BVP_label)
 It is just for **research purpose**, and commercial use is not allowed.
 
 If you use the PhysNet please cite: 
+
 @inproceedings{yu2019remote,
+
   title={Remote Photoplethysmograph Signal Measurement from Facial Videos Using Spatio-Temporal Networks},
+  
   author={Yu, Zitong and Li, Xiaobai and Zhao, Guoying},
+  
   booktitle={Proc. BMVC},
+  
   year={2019}
+  
 }
 
